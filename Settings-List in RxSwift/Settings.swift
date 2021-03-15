@@ -9,5 +9,5 @@ import UIKit
 
 struct Settings {
     let name: String
-    let icon: UIImage
+    let icon: UIImage?
 }

@@ -16,6 +16,7 @@
 		1236B3CD25FFFE7D00C4080D /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 1236B3CC25FFFE7D00C4080D /* RxCocoa */; };
 		1236B3CF25FFFE7D00C4080D /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1236B3CE25FFFE7D00C4080D /* RxSwift */; };
 		1236B3D22600000900C4080D /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1236B3D12600000900C4080D /* Settings.swift */; };
+		1236B3D5260009F600C4080D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1236B3D4260009F600C4080D /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		1236B3C225FFFD6500C4080D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1236B3C425FFFD6500C4080D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1236B3D12600000900C4080D /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		1236B3D4260009F600C4080D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				1236B3B625FFFD6400C4080D /* AppDelegate.swift */,
 				1236B3B825FFFD6400C4080D /* SceneDelegate.swift */,
 				1236B3BA25FFFD6400C4080D /* ViewController.swift */,
+				1236B3D4260009F600C4080D /* Constants.swift */,
 				1236B3D12600000900C4080D /* Settings.swift */,
 				1236B3BC25FFFD6400C4080D /* Main.storyboard */,
 				1236B3BF25FFFD6500C4080D /* Assets.xcassets */,
@@ -151,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1236B3D5260009F600C4080D /* Constants.swift in Sources */,
 				1236B3BB25FFFD6400C4080D /* ViewController.swift in Sources */,
 				1236B3B725FFFD6400C4080D /* AppDelegate.swift in Sources */,
 				1236B3D22600000900C4080D /* Settings.swift in Sources */,
